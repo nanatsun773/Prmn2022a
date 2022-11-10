@@ -11,7 +11,7 @@ public class Exercise3_3 {
 
         for(int i = 0; i < 2; i++) {
             System.out.println(i+1 + "つ目の整数を入力してください:");
-            String num = input.next();
+            String num = input.nextLine();
             int number = Integer.parseInt(num);
             numData[i] = number;
             sum += number;

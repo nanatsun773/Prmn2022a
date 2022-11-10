@@ -10,6 +10,6 @@ public class Vegetable {
     }
 
     public void print() {
-        System.out.println(name + "は" + value + "円");
+        System.out.println(this.name + "は" + this.value + "円");
     }
 }
